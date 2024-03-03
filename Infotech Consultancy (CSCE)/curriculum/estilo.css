@@ -1,0 +1,87 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la sección del curriculum */
+.cv {
+    margin: 20px;
+}
+
+.cv h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cv .borde {
+    border-top: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.cv ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilos para la sección de datos personales */
+.datos {
+    margin: 20px;
+}
+
+.datos h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.datos .borde2 {
+    border-top: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.datos p {
+    margin: 0;
+}
+
+/* Estilos para la sección de resumen profesional */
+.datos div {
+    margin-bottom: 20px;
+}
+
+.datos u {
+    text-decoration: none;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.registro-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registro-btn:hover {
+    background-color: #0056b3;
+}
